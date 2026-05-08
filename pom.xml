@@ -6,7 +6,7 @@
 
     <groupId>xyz.segurapass</groupId>
     <artifactId>segurapass-api</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.1-SNAPSHOT</version>
 
     <properties>
         <maven.compiler.source>21</maven.compiler.source>
