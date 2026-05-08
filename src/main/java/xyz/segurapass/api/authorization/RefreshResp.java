@@ -1,8 +1,12 @@
 package xyz.segurapass.api.authorization;
 
+import lombok.AllArgsConstructor;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
 @Data
+@NoArgsConstructor
+@AllArgsConstructor
 public class RefreshResp {
     private String accessToken;
 }
