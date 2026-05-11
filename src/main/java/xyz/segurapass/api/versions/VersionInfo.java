@@ -10,6 +10,8 @@ import java.time.LocalDate;
 @NoArgsConstructor
 @AllArgsConstructor
 public class VersionInfo {
-    private String versionNumber, versionDescription, downloadUrl;
+    private String versionNumber;
+    private String versionDescription;
+    private String downloadUrl;
     private LocalDate versionDate;
 }
