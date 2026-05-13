@@ -1,5 +1,6 @@
 package xyz.segurapass.api.deletion;
 
+import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -10,6 +11,8 @@ import java.util.UUID;
 @NoArgsConstructor
 @AllArgsConstructor
 public class AuthorizedDeletionCompleteReq {
+    @JsonProperty("deviceId")
     private UUID deviceId;
+    @JsonProperty("M1")
     private String M1;
 }
