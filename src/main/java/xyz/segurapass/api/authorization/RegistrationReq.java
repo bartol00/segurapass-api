@@ -17,6 +17,10 @@ public class RegistrationReq {
     private String saltAuth;
     @JsonProperty("verifier")
     private String verifier;
+    @JsonProperty("vaultKey")
+    private String vaultKey;
+    @JsonProperty("ivVaultKey")
+    private String ivVaultKey;
     @JsonProperty("saltKey")
     private String saltKey;
     @JsonProperty("deviceId")

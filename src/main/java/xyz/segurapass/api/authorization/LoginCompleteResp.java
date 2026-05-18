@@ -13,6 +13,10 @@ import java.time.Instant;
 public class LoginCompleteResp {
     @JsonProperty("M2")
     private String M2;
+    @JsonProperty("vaultKey")
+    private String vaultKey;
+    @JsonProperty("ivVaultKey")
+    private String ivVaultKey;
     @JsonProperty("saltKey")
     private String saltKey;
     @JsonProperty("accessToken")
