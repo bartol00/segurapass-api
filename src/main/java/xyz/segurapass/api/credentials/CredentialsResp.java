@@ -26,6 +26,8 @@ public class CredentialsResp {
     private String ivUsername;
     @JsonProperty("ivPassword")
     private String ivPassword;
+    @JsonProperty("createdAt")
+    private Instant createdAt;
     @JsonProperty("lastUpdated")
     private Instant lastUpdated;
 }
