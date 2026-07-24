@@ -25,4 +25,10 @@ public class PasswordChangeCompleteReq {
     private String newIvVaultKey;
     @JsonProperty("newSaltKey")
     private String newSaltKey;
+    @JsonProperty("newSaltHkdf")
+    private String newSaltHkdf;
+    @JsonProperty("newPrivateSigningKey")
+    private String newPrivateSigningKey;
+    @JsonProperty("newIvPrivateSigningKey")
+    private String newIvPrivateSigningKey;
 }

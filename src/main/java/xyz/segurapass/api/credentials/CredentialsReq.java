@@ -1,5 +1,6 @@
 package xyz.segurapass.api.credentials;
 
+import com.fasterxml.jackson.annotation.JsonFormat;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -21,4 +22,9 @@ public class CredentialsReq {
     private String ivUsername;
     @JsonProperty("ivPassword")
     private String ivPassword;
+    @JsonProperty("nonce")
+    private String nonce;
+    @JsonProperty("operation")
+    @JsonFormat(shape = JsonFormat.Shape.STRING)
+    private CredentialsOperation operation;
 }

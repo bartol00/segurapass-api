@@ -23,6 +23,14 @@ public class RegistrationReq {
     private String ivVaultKey;
     @JsonProperty("saltKey")
     private String saltKey;
+    @JsonProperty("saltHkdf")
+    private String saltHkdf;
+    @JsonProperty("privateSigningKey")
+    private String privateSigningKey;
+    @JsonProperty("publicSigningKey")
+    private String publicSigningKey;
+    @JsonProperty("ivPrivateSigningKey")
+    private String ivPrivateSigningKey;
     @JsonProperty("deviceId")
     private UUID deviceId;
 }

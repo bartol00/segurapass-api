@@ -19,6 +19,14 @@ public class LoginCompleteResp {
     private String ivVaultKey;
     @JsonProperty("saltKey")
     private String saltKey;
+    @JsonProperty("saltHkdf")
+    private String saltHkdf;
+    @JsonProperty("privateSigningKey")
+    private String privateSigningKey;
+    @JsonProperty("publicSigningKey")
+    private String publicSigningKey;
+    @JsonProperty("ivPrivateSigningKey")
+    private String ivPrivateSigningKey;
     @JsonProperty("accessToken")
     private String accessToken;
     @JsonProperty("refreshToken")
