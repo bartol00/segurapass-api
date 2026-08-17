@@ -16,19 +16,19 @@ public class PasswordChangeCompleteReq {
     @JsonProperty("M1")
     private String M1;
     @JsonProperty("newSaltAuth")
-    private String newSaltAuth;
+    private byte[] newSaltAuth;
     @JsonProperty("newVerifier")
     private String newVerifier;
     @JsonProperty("newVaultKey")
-    private String newVaultKey;
+    private byte[] newVaultKey;
     @JsonProperty("newIvVaultKey")
-    private String newIvVaultKey;
+    private byte[] newIvVaultKey;
     @JsonProperty("newSaltKey")
-    private String newSaltKey;
+    private byte[] newSaltKey;
     @JsonProperty("newSaltHkdf")
-    private String newSaltHkdf;
+    private byte[] newSaltHkdf;
     @JsonProperty("newPrivateSigningKey")
-    private String newPrivateSigningKey;
+    private byte[] newPrivateSigningKey;
     @JsonProperty("newIvPrivateSigningKey")
-    private String newIvPrivateSigningKey;
+    private byte[] newIvPrivateSigningKey;
 }

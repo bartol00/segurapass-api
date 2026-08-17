@@ -11,17 +11,17 @@ public class CredentialsRespSdk {
     @JsonProperty("credentialsId")
     private UUID credentialsId;
     @JsonProperty("website")
-    private String website;
+    private byte[] website;
     @JsonProperty("username")
-    private String username;
+    private byte[] username;
     @JsonProperty("password")
-    private String password;
+    private byte[] password;
     @JsonProperty("ivWebsite")
-    private String ivWebsite;
+    private byte[] ivWebsite;
     @JsonProperty("ivUsername")
-    private String ivUsername;
+    private byte[] ivUsername;
     @JsonProperty("ivPassword")
-    private String ivPassword;
+    private byte[] ivPassword;
     @JsonProperty("createdAt")
     private Instant createdAt;
     @JsonProperty("lastUpdated")

@@ -14,19 +14,19 @@ public class LoginCompleteResp {
     @JsonProperty("M2")
     private String M2 = null;
     @JsonProperty("vaultKey")
-    private String vaultKey = null;
+    private byte[] vaultKey = null;
     @JsonProperty("ivVaultKey")
-    private String ivVaultKey = null;
+    private byte[] ivVaultKey = null;
     @JsonProperty("saltKey")
-    private String saltKey = null;
+    private byte[] saltKey = null;
     @JsonProperty("saltHkdf")
-    private String saltHkdf = null;
+    private byte[] saltHkdf = null;
     @JsonProperty("privateSigningKey")
-    private String privateSigningKey = null;
+    private byte[] privateSigningKey = null;
     @JsonProperty("publicSigningKey")
-    private String publicSigningKey = null;
+    private byte[] publicSigningKey = null;
     @JsonProperty("ivPrivateSigningKey")
-    private String ivPrivateSigningKey = null;
+    private byte[] ivPrivateSigningKey = null;
     @JsonProperty("accessToken")
     private String accessToken = null;
     @JsonProperty("refreshToken")
@@ -38,13 +38,13 @@ public class LoginCompleteResp {
 
     public LoginCompleteResp(
             String m2,
-            String vaultKey,
-            String ivVaultKey,
-            String saltKey,
-            String saltHkdf,
-            String privateSigningKey,
-            String publicSigningKey,
-            String ivPrivateSigningKey,
+            byte[] vaultKey,
+            byte[] ivVaultKey,
+            byte[] saltKey,
+            byte[] saltHkdf,
+            byte[] privateSigningKey,
+            byte[] publicSigningKey,
+            byte[] ivPrivateSigningKey,
             String accessToken,
             String refreshToken,
             Instant refreshTokenExpiryTime
