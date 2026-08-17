@@ -12,5 +12,5 @@ public class LoginStartResp {
     @JsonProperty("B")
     private String B;
     @JsonProperty("saltAuth")
-    private String saltAuth;
+    private byte[] saltAuth;
 }

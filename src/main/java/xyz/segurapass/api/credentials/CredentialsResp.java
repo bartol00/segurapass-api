@@ -15,17 +15,17 @@ public class CredentialsResp {
     @JsonProperty("credentialsId")
     private UUID credentialsId;
     @JsonProperty("website")
-    private String website;
+    private byte[] websiteBytes;
     @JsonProperty("username")
-    private String username;
+    private byte[] usernameBytes;
     @JsonProperty("password")
-    private String password;
+    private byte[] passwordBytes;
     @JsonProperty("ivWebsite")
-    private String ivWebsite;
+    private byte[] ivWebsiteBytes;
     @JsonProperty("ivUsername")
-    private String ivUsername;
+    private byte[] ivUsernameBytes;
     @JsonProperty("ivPassword")
-    private String ivPassword;
+    private byte[] ivPasswordBytes;
     @JsonProperty("createdAt")
     private Instant createdAt;
     @JsonProperty("lastUpdated")

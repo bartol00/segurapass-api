@@ -14,23 +14,23 @@ public class RegistrationReq {
     @JsonProperty("email")
     private String email;
     @JsonProperty("saltAuth")
-    private String saltAuth;
+    private byte[] saltAuth;
     @JsonProperty("verifier")
     private String verifier;
     @JsonProperty("vaultKey")
-    private String vaultKey;
+    private byte[] vaultKey;
     @JsonProperty("ivVaultKey")
-    private String ivVaultKey;
+    private byte[] ivVaultKey;
     @JsonProperty("saltKey")
-    private String saltKey;
+    private byte[] saltKey;
     @JsonProperty("saltHkdf")
-    private String saltHkdf;
+    private byte[] saltHkdf;
     @JsonProperty("privateSigningKey")
-    private String privateSigningKey;
+    private byte[] privateSigningKey;
     @JsonProperty("publicSigningKey")
-    private String publicSigningKey;
+    private byte[] publicSigningKey;
     @JsonProperty("ivPrivateSigningKey")
-    private String ivPrivateSigningKey;
+    private byte[] ivPrivateSigningKey;
     @JsonProperty("deviceId")
     private UUID deviceId;
 }

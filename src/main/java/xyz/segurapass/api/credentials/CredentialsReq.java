@@ -11,17 +11,17 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 public class CredentialsReq {
     @JsonProperty("website")
-    private String website;
+    private byte[] websiteBytes;
     @JsonProperty("username")
-    private String username;
+    private byte[] usernameBytes;
     @JsonProperty("password")
-    private String password;
+    private byte[] passwordBytes;
     @JsonProperty("ivWebsite")
-    private String ivWebsite;
+    private byte[] ivWebsiteBytes;
     @JsonProperty("ivUsername")
-    private String ivUsername;
+    private byte[] ivUsernameBytes;
     @JsonProperty("ivPassword")
-    private String ivPassword;
+    private byte[] ivPasswordBytes;
     @JsonProperty("nonce")
     private String nonce;
     @JsonProperty("operation")
