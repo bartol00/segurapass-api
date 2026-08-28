@@ -13,4 +13,6 @@ public class VersionInfo {
     private String appVersion;
     @JsonProperty("protocolVersion")
     private String protocolVersion;
+    @JsonProperty("emailClientActive")
+    private boolean emailClientActive;
 }
