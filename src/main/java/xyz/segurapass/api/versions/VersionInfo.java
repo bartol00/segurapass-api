@@ -15,4 +15,6 @@ public class VersionInfo {
     private String protocolVersion;
     @JsonProperty("emailClientActive")
     private boolean emailClientActive;
+    @JsonProperty("credentialsLimit")
+    private int credentialsLimit;
 }
